@@ -15,3 +15,7 @@ put ps3.xml in main ghidra folder
 does imports and exports
 
 only works on elfs for now
+
+## AnalyzeSPRX.zip by ClientHax
+
+collection of scripts by ClientHax for analyzis of ps3 sprx/elf/lv2
