@@ -1,13 +1,13 @@
 # ps3_ghidra
 A collection of scripts/loaders/plugins for ghidra used to aid ps3 reverse engineering
 
-## find_stdu.java
+## find_stdu.java by Pablo / kozzarov
 
 Here is stupid script made from one of already existing ones. You need to run it on unanalyzed file to get best result, or result at all until i learn java, and that api. 
 
 Is just looking for hex pattern of      stdu        r1, and create function there. For now it scan only undefinied parts, that why need to run before analyze. Seems to not cause any issues, you can run autoanalyze right when it finish.
 
-## ps3.py
+## ps3.py by aerosoul94
 nasty script
 
 put ps3.xml in main ghidra folder
@@ -15,3 +15,7 @@ put ps3.xml in main ghidra folder
 does imports and exports
 
 only works on elfs for now
+
+## AnalyzeSPRX.zip by ClientHax
+
+collection of scripts by ClientHax for analyzis of ps3 sprx/elf/lv2
